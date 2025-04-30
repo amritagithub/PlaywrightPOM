@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {"regression":"npx playwright test tests/UIBasictest.spec.js",
+"test":"npx playwright test tests/UIBasicstest.spec.js"},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.46.0",
-    "@types/node": "^22.2.0"
+    "@types/node": "^22.2.0",
+    "allure-playwright": "^3.2.1"
   }
 }
