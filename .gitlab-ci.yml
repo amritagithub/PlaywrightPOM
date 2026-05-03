@@ -17,7 +17,7 @@ playwright-tests:
   stage: test
   script:
     - npx playwright install --with-deps
-    - npx playwright test tests/UIBasicstest.spec.js
+    - npx playwright test tests/UIBasictest.spec.js
   artifacts:
     when: always
     paths:
